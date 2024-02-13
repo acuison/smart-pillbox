@@ -1,7 +1,7 @@
 cd C:\xampp\mysql\bin
 mysqladmin -u root password your-root-password
 mysql.exe -u root -p
-CREATE USER 'Arduino'@'localhost' IDENTIFIED BY 'ArduinoGetStarted.com';
+CREATE USER 'Arduino'@'localhost' IDENTIFIED BY 'GenesisAggabao';
 GRANT ALL PRIVILEGES ON *.* TO 'Arduino'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 CREATE DATABASE db_arduino CHARACTER SET = 'utf8' COLLATE = 'utf8_general_ci';
