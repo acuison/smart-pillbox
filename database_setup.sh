@@ -10,8 +10,9 @@ USE db_arduino;
 CREATE TABLE tbl_temp (
 	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	date DATE,
-  time TIME,
-  med_name VARCHAR(60),
-  comp_num INT,
+        time TIME,
+        med_name VARCHAR(60),
+        comp_num INT,
+	comments VARCHAR(250),
 	PRIMARY KEY (id)
 );
