@@ -7,7 +7,7 @@ FLUSH PRIVILEGES;
 CREATE DATABASE db_arduino CHARACTER SET = 'utf8' COLLATE = 'utf8_general_ci';
 USE db_arduino;
 
-CREATE TABLE tbl_temp (
+CREATE TABLE spb_table (
 	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	date DATE,
         time TIME,
